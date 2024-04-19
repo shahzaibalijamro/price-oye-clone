@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box !important;
+}
+header{
+    background-color: #48afff !important;
+    padding: 10px;
+}
+.header-logo{
+    width: 130px;
+    height: 48px;
+}
+.header-bar{
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+}
+.header-but-1{
+    text-decoration: none;
+    color: #48afff;
+    background-color: white;
+    padding: 9px 22px;
+    border-radius: 5px;
+}
+.header-but-2{
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #48afff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.search-box{
+    border: none !important;
+    background-color: #fff;
+    border: 2px solid #48afff;
+    color: #748a98;
+    font-size: 14px;
+    font-weight: normal;
+    height: 40px;
+    margin: 0;
+    outline: 0;
+    line-height: 1.15;
+}
+.search-box-out{
+    padding: 6px 10px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.search-box-audio{
+    background-color: white;
+}
