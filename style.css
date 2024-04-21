@@ -3,6 +3,7 @@
 }
 body{
     background-color: #f1f3f6 !important;
+    font-family: "Open Sans", sans-serif;
 }
 header{
     background-color: #48afff !important;
@@ -138,6 +139,11 @@ header{
     color: black;
     padding: 9px 16px;
     border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+.lp-button:hover{
+    /* transform: scale(1.1); */
+    transform: translateY(5px);
 }
 .lp-button-2{
     font-size: 14px;
@@ -178,6 +184,7 @@ header{
     background-color: white;
     height: 275px !important;
     border-radius: 5px;
+    cursor: pointer;
 }
 .pl-card-4, .pl-card-8{
     margin-right: 0px;
@@ -284,6 +291,7 @@ header{
     border-radius: 12px;
     background-color: white;
     position: relative;
+    cursor: pointer;
 }
 .video-card-5{
     margin-right: 0px;
@@ -317,6 +325,7 @@ header{
     width: 42%;
     background-color: white;
     border-radius: 7px;
+    cursor: pointer;
 }
 .right-section{
     width: 59%;
@@ -347,10 +356,12 @@ header{
 .rs-cards{
     background-color: white;
     padding: 20px;
-    /* width: 49%; */
+    width: 49%;
+    cursor: pointer;
 }
 .rs-cards-mobile{
     display: none;
+    cursor: pointer;
 }
 .grid-right-text{
     width: 40%;
@@ -368,9 +379,11 @@ header{
 .add-banner-desk{
     width: 100%;
     margin-top: 30px;
+    cursor: pointer;
 }
 .add-banner-mob{
-    display: none;
+        cursor: pointer;
+        display: none;
 }
 .bg-yellow{
     background-color: #f2d43d;
@@ -447,6 +460,13 @@ header{
     width: 70px;
     height: 70px;
 }
+.brand-in{
+    transition: 0.3s ease-in-out;
+}
+.brand-in:hover{
+    transform: scale(1.07);
+    /* transform: translateY(-6px); */
+}
 .brand-text{
     font-size: 13px;
     font-weight: 400;
@@ -464,6 +484,7 @@ header{
     width: 120px;
     border-radius: 4px;
     overflow: hidden;
+    cursor: pointer;
 }
 .customer-imgs-2{
     height: 157px;
@@ -477,6 +498,7 @@ header{
 .review-card{
     background: #fff;
     color: #979797;
+    cursor: pointer;
     border-radius: 4px;
     padding: 20px;
     height: 215px;
@@ -565,6 +587,7 @@ header{
     background: radial-gradient(25.65% 62.25% at 27.62% 50.2%, #48afff 21.57%, #0078d5 100%);
     border-radius: 10px;
     padding: 20px;
+    cursor: pointer;
 }
 .reason-img-wrapper{
     width: 155px;
@@ -600,22 +623,124 @@ header{
     font-size: 12px;
     padding: 8px 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.services-section{
+    margin: 60px 0 15px;
+}
+.services-wrapper{
+    padding: 30px 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.service-card{
+    text-align: center;
+}
+.service-img{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+}
+.service-text-1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #202020;
+}
+.service-text-2{
+    font-size: 13px;
+    color: rgba(7, 18, 27, .6);
+}
+#footer{
+    background-color: #48afff;
+}
+.container-fluid{
+    max-width: 1200px;
+    padding: 0 20px;
+}
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+}
+.footer-col{
+    width: 33%;
+}
+.footer-logo{
+    width: 128px;
+    height: 27px;
+    overflow: hidden;
+}
+.footer-col-1-list{
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+.footer-list-item{
+    margin-bottom: 10px;
+    list-style-type: none;
+    line-height: 1.3;
+}
+.footer-links{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer-h2{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.payment-img{
+    width: 270px;
+    height: 28px;
+    cursor: pointer;
+}
+.payment-methods{
+    padding-top: 30px;
+}
+.ps-wrapper{
+    padding-top: 5px;
+}
+.play-store{
+    width: 160px;
+    cursor: pointer;
+    height: 60px;
+}
+.footer-bottom{
+    background-color: #3eabff;
+}
+.footer-primary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 18px 10px;
+    align-items: center;
+}
+.copyright{
+    width: 33%;
+    font-size: 14px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.social{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-imgs{
+    width: 27px;
+    height: 27px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.social-imgs:hover{
+    transform: translateY(-5px);
+}
 @media(max-width:1205px){
     .latest-products{
         padding: 0px 15px;
@@ -679,9 +804,12 @@ header{
         margin-top: 15px;
     }
     .ds-cards{
+        cursor: pointer;
         background-color: white;
         padding: 20px;
-        flex-grow: 1;
+        /* flex-grow: 1; */
+        width: 50%;
+        border-radius: 7px;
     }
     .customer-imgs-1-9, .customer-imgs-1-8, .customer-imgs-1-7{
         display: none;
@@ -694,6 +822,9 @@ header{
     }
     .review-card{
         width: 49%;
+    }
+    .rs-cards{
+        width: 100%;
     }
 }
 @media(max-width:905px){
@@ -799,7 +930,8 @@ header{
         display: block;
         background-color: white;
         padding: 20px;
-        flex-grow: 1;
+        /* flex-grow: 1; */
+        width: 50%;
     }
     .grid-right-img{
         display: block;
@@ -835,6 +967,59 @@ header{
     .review-card-3{
         display: block;
     } */
+    .reason-card{
+        flex-direction: column;
+        background: radial-gradient(50.3% 35.01% at 49.7% 29.54%, #48afff 0%, #0078d4 100%);
+        padding: 7px 11px 20px;
+    }
+    .reason-img-wrapper{
+        width: 95px;
+        height: 95px;
+        overflow: hidden !important;
+    }
+    .reason-text{
+        font-size: 15px;
+        width: 120px;
+    }
+    .footer-col-3{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .footer-col-2, .footer-col-1{
+        width: 50%;
+    }
+    .payment-methods{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 15px;
+    }
+    .ps-wrapper{
+        margin-left: 5px;
+    }
+    .footer-links{
+        font-size: 12px;
+    }
+    .footer-logo{
+        width: 123px;
+        height: 26px;
+    }
+    .footer-list-item{
+        line-height: 1;
+    }
+    .footer-col-1-list{
+        padding-top: 25px;
+    }
+    .footer-primary{
+        justify-content: space-between;
+        row-gap: 15px;
+    }
+    .social{
+        width: fit-content;
+    }
+    .copyright{
+        width: 40%;
+    }
 }
 @media(max-width:795px){
     .brand-in-9{
@@ -845,6 +1030,27 @@ header{
     /* .brand-in-9{
         display: none;
     } */
+    .services{
+        flex-wrap: wrap;
+    }
+    .service-card{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        text-align: initial;
+        margin: 8px 0px;
+    }
+    .service-img{
+        width: 47px;
+        height: 45px;
+        margin: initial;
+    }
+    .service-detail{
+        margin-left: calc(30px / 4);
+    }
+    .service-card{
+        justify-content: center;
+    }
 }
 @media(max-width:680px){
     /* .brand-in-8{
@@ -918,6 +1124,18 @@ header{
     /* .brand-in-5{
         display: none;
     } */
+    .reason-row-1{
+        flex-wrap: wrap;
+    }
+    .reason-row-2{
+        display: none;
+    }
+    .reason-card{
+        width: 100%;
+    }
+    .footer-col-2, .footer-col-1{
+        width: 100%;
+    }
 }
 @media(max-width:370px){
     .brand-in-4{
