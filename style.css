@@ -832,7 +832,7 @@ header{
         display: none;
     }
     .brand-rangers{
-        padding: 0px 10px;
+        padding: 0px 5px;
     }
 }
 @media(max-width:880px){
@@ -1080,6 +1080,21 @@ header{
     /* .brand-in-7{
         display: none;
     } */
+    .latest-products{
+        padding: 0px 0px;
+    }
+    .influencer-videos{
+        padding: 0px 0px;
+    }
+    .best-seller{
+        padding: 0px 0px;
+    }
+    .customer-card-section{
+        padding: 0px 0px;
+    }
+    .customer-imgs-section{
+        padding: 0px 0px;
+    }
 }
 @media(max-width:540px){
     .brand-in-6{
